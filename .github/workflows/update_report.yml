@@ -1,7 +1,7 @@
 name: Updating Citizen Science Report
 run-name: ${{ github.actor }} is updating the report!
 on:
-  schedule:
+  #schedule:
     #- cron:  '0 8 * * 1'
     push:
     
