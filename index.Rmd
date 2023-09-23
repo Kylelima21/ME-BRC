@@ -22,8 +22,8 @@ date <- as.Date(end, format = "%d %B %Y")
 start <- paste("1", format(date, "%B"), year(date))
 
 ## Pull iNaturalist and eBird data
-#inat <- inat_recent("month")
-inat <- read.csv("outputs/test.csv")
+inat <- inat_recent("month")
+#inat <- read.csv("outputs/test.csv")
 
 ## Read in review list for filtering
 rlist <- read.csv("outputs/final_review_species_list.csv")
