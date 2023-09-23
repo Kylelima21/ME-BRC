@@ -20,19 +20,19 @@ start <- paste("1", format(date, "%B"), year(date))
 <div style = "
   text-align: center;
   padding: 3px 0;
-  background-image: linear-gradient(240deg, rgba(146, 206, 208, 0.8), rgba(85, 143, 94, 0.8));
+  background-image: linear-gradient(240deg, rgba(13, 4, 42, 0.8), rgba(112, 134, 131, 0.8));
   ">
 
   <div style = "
-  color: rgba(13, 4, 42, 1);
+  color: white;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 600;
   ">
   ME-BRC: iNaturalist Review Species Report
   </div>
 
   <div style = "
-  color: rgba(13, 4, 42, 1);
+  color: white;
   font-size: 20px;
   font-weight: 500;
   ">
@@ -75,14 +75,30 @@ start <- paste("1", format(date, "%B"), year(date))
   position: relative;
   font-size: 20px;
   font-weight: 500;
-  color: white;
-  background-color: rgb(48, 44, 100);
+  color: black;
+  background-color: rgb(195,156,123);
   text-decoration: none;
   padding: 20px 25px;
   border-radius: 100vmax;
   ">
   Go to the report!
   </a>
+</div>
+
+
+
+<!-- Footer -->
+<div style = "
+  position: relative;
+  margin: 30px auto;
+  height: 100px;
+  width: 200px;
+  border-radius: 5px;
+  ">
+  <img src = "img/schoodic_horizontal.jpeg" alt = "Schoodic Institute logo" style = "
+  object-fit: cover;
+  overflow: hidden;
+  ">
 </div>
 
 
