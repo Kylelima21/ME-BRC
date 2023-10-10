@@ -2,6 +2,8 @@
 
 Project that detects review species of the ME-BRC that are reported to iNaturalist, and send a summary email to the committee once a month.
 
+View page here: https://kylelima21.github.io/ME-BRC/
+
 <br>
 
 <p align="center">
