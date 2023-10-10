@@ -109,6 +109,6 @@ finaldat <- inat %>%
   
   Background art of the Rock Wren © Doug Hitchcox.
   
-  Chestnut-collared Longspur photo in the introduction © Louis Bevier
+  Golden-crowned Sparrow photo © Louis Bevier
   
 </div>
