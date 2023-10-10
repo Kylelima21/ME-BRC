@@ -2,7 +2,7 @@ name: Updating ME-BRC Inaturalist Report
 run-name: ${{ github.actor }} is updating the report!
 on:
   schedule:
-    - cron:  '0 1 1 * *'
+    - cron:  '0 7 1 * *'
     
 jobs:
   Update-Report-Pages:
