@@ -85,7 +85,7 @@ finaldat <- inat %>%
   </div>
   <img src = "email_alerts/img/gcsp.jpeg" alt = "An Chestnut-collared Longspur in Maine" class = "rare-img">
   <div class = "rare-table">
-  `r ifelse(length(finaldat$scientific.name) > 0, kbl(finaldat) %>% kable_styling(bootstrap_options = "hover"), paste0("<h3> There were no review species observed this month in iNaturalist. </h3>"))`
+  `r ifelse(length(finaldat$scientific.name) > 0, kbl(finaldat) %>% kable_styling(bootstrap_options = "hover"), paste0("<h3> There were no review species observed this month. </h3>"))`
   </div>
 </div>
 

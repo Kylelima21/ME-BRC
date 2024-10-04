@@ -37,7 +37,7 @@ library(blastula)
 smtp_send(render_email('email_alerts/email_material.Rmd'),
           from = "klima@schoodicinstitute.org",
           to = c("klima@schoodicinstitute.org", "bmarvil1@gmail.com", "dhitchcox@mac.com", "lrbevier@colby.edu"),
-          subject = "ME-BRC Review List iNaturalist Report",
+          subject = "ME-BRC iNaturalist Report",
           credentials = creds_file("email_alerts/kmail")
 )
 
